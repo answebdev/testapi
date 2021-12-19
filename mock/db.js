@@ -1,10 +1,18 @@
 const albums = require('./albums');
 const artists = require('./artists');
+// const albums = require('../db.json');
+// const artists = require('../dbartists.json');
 
-module.exports = () => ({
-  albums,
-  artists,
-});
+// module.exports = () => ({
+//   albums,
+//   artists,
+// });
+module.exports = function () {
+  return {
+    albums: albums,
+    artists: artists,
+  };
+};
 
 // module.exports = () => ({
 //   albums: [

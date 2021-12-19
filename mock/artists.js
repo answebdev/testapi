@@ -20,7 +20,7 @@ module.exports = [
   {
     id: 3,
     artist: 'Motörhead',
-    origin: '	London, England',
+    origin: 'London, England',
     years_active: '1975-2015',
   },
 ];
