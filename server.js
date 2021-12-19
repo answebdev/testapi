@@ -4,8 +4,8 @@ const router = jsonServer.router('db.js');
 const middlewares = jsonServer.defaults();
 const port = process.env.PORT || 3000;
 
-const albums = require('./mock/albums');
-const artists = require('./mock/artists');
+const albums = require('./albums');
+const artists = require('./artists');
 module.exports = () => ({
   albums,
   artists,
